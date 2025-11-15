@@ -43,3 +43,44 @@ const ex4 = (x) => {
 }
 
 console.log(ex4(21))
+
+const ex5 = (x) => {
+    console.log("")
+    console.log("Ex 5")
+    let sum = 0
+    let n = 0
+    while(sum + (n+1) <= x){
+        n++
+        sum += n
+    }
+    return n
+}
+
+console.log(ex5(15))
+
+const ex6 = (x) => {
+    console.log("")
+    console.log("Ex 6")
+    let s = 0
+    for(let c of x){
+        s = !isNaN(Number(c)) ? s += Number(c) : s
+    }
+    return s
+}
+
+console.log(ex6("Meti 2 goles"))
+
+
+const ex7 = (a, b, c) => {
+    console.log("")
+    console.log("Ex 7")
+    numbers = [a, b, c]
+
+    numbers.sort(function (a, b) {
+        return b - a;
+    });
+
+    return numbers
+}
+
+console.log(ex7(3, 2, 7))
