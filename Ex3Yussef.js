@@ -7,9 +7,9 @@ const ex1 = (x) => {
 console.log(ex1(14))
 
 const ex2 = (x, y) => {
-        console.log("")
-        console.log("Ex 2")
-        return `${x >=10 && x <=50 ? "X sí" : "X no"}, ${y >= 10 && y <= 50 ? "Y sí" : "Y no"}`
+    console.log("")
+    console.log("Ex 2")
+    return `${x >=10 && x <=50 ? "X sí" : "X no"}, ${y >= 10 && y <= 50 ? "Y sí" : "Y no"}`
 }
 
 console.log(ex2(45, 222))   
@@ -17,10 +17,11 @@ console.log(ex2(45, 222))
 const ex3 = (x) => {
     console.log("")
     console.log("Ex 3")
-  return x < 5 ? "Suspès" :
-  x < 6 ? "Suficient" :
-  x < 7 ? "Bé" :
-  x < 9 ? "Notable" : "Excel·lent"
+    return x < 5 ? "Suspès" :
+    x < 6 ? "Suficient" :
+    x < 7 ? "Bé" :
+    x < 9 ? "Notable" : "Excel·lent"
 }
 
 console.log(ex3(8,99))
+
