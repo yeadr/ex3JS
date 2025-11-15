@@ -84,3 +84,13 @@ const ex7 = (a, b, c) => {
 }
 
 console.log(ex7(3, 2, 7))
+
+const ex8 = (x) => {
+    console.log("")
+    console.log("Ex 8")
+    for(let i = 0; i <= x; i++){
+        console.log(i + (i % 2 == 0 ? " parell":" senar"))
+    }
+}
+
+ex8(9)
