@@ -153,3 +153,23 @@ const ex11 = () => {
 }
 
 ex11()
+
+const ex12 = (x) => {
+    console.log("")
+    console.log("Ex 12")
+
+    let s = String(x)
+    let r = ""
+    for(let i = 0; i < s.length; i+=2){
+        r += s[i+1] + s[i]
+    }
+    return Number(r)
+}
+
+console.log(ex12(345879))
+
+
+
+
+
+
