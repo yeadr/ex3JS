@@ -94,3 +94,40 @@ const ex8 = (x) => {
 }
 
 ex8(9)
+
+const ex9 = () => {
+    console.log("")
+    console.log("Ex 9")
+
+    for(let i = 0; i <= 5; i++){
+        let linia = ""
+
+        for(let j = 0; j < i; j++){
+            linia += " *"
+        }
+
+        console.log(linia)
+    }
+}
+
+ex9()
+
+const ex10 = () => {
+    console.log("")
+    console.log("Ex 10")
+
+    let i = 0
+    let sum = 0
+
+    do{
+        if(i % 3 == 0 || i % 5 == 0){
+            sum += i
+        } 
+
+        i++
+    }while(i<=1000)
+
+    return sum
+}
+
+console.log(ex10())
