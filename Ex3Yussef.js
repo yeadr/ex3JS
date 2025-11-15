@@ -131,3 +131,25 @@ const ex10 = () => {
 }
 
 console.log(ex10())
+
+
+const ex11 = () => {
+    console.log("")
+    console.log("Ex 11")
+
+    for(let i = 1; i <= 5; i++){
+        if(i%2 == 0){
+            continue
+        } 
+
+        let linia = ""
+
+        for(let j = 0; j < i; j++){
+            linia += " *"
+        }
+
+        console.log(linia)
+    }
+}
+
+ex11()
