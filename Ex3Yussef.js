@@ -14,3 +14,13 @@ const ex2 = (x, y) => {
 
 console.log(ex2(45, 222))   
 
+const ex3 = (x) => {
+    console.log("")
+    console.log("Ex 3")
+  return x < 5 ? "Suspès" :
+  x < 6 ? "Suficient" :
+  x < 7 ? "Bé" :
+  x < 9 ? "Notable" : "Excel·lent"
+}
+
+console.log(ex3(8,99))
