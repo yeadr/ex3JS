@@ -25,3 +25,21 @@ const ex3 = (x) => {
 
 console.log(ex3(8,99))
 
+
+const ex4 = (x) => {
+    const m3 = x % 3 == 0
+    const m7 = x % 7 == 0
+
+    console.log("")
+    console.log("Ex 4")
+
+    switch(true){
+        case m3 && m7: return "és múltiple de 3 i 7"
+        case m3: return "és múltiple de 3"
+        case m7: return "és múltiple de 7"
+        default: return "no és múltiple de 3 ni 7"
+    }
+
+}
+
+console.log(ex4(21))
